@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --black: #000000;
+    --oxfordBlue: #00264C;
+    --greenBlue: #045FAE;
+    --carolinaBlue: #82AFD7;
+    --columbiaBlue: #C1D7EB;
+    --white: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #045FAE;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoMedico img {
+    width: 200px;
+    height: auto;
+    display: block;
+    padding: 10px 15px 10px 20px;
+}
+
+.botonesIngreso{
+    padding: 0px 20px;
+}
+
+button {
+    background-color: #00264C;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+}
+
+.banner img{
+    width: 100vw;
+    margin: 0;   
+}
+
+footer{
+    background-color: #00264C;
+    color: #C1D7EB;
+    margin: 0;
+}
