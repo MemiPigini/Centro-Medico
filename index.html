@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sistema de turnos de un centro medico">
+    <link rel="stylesheet" href="/css/style.css">
     <script defer src="/js/main.js"></script>
     <title>Turnos online</title>
 </head>
@@ -15,6 +16,35 @@
     <h3>En este proyecto, buscamos simular un sistema de turnos para un
         centro médico. 
     </h3>
+    <br>
+    <hr>
+    <br>
+    <div id="formulario-turno">
+        <h2>Reservar turno</h2>
+        <form id="formTurno">
+            <label>Especialidad:</label>
+            <select id="especialidadSelect"></select>
+            <br>
+            <label>Obra Social:</label>
+            <select id="obraSocialSelect"></select>
+            <br>
+            <label>Fecha:</label>
+            <select id="fechaSelect"></select>
+            <br>
+            <label>Nombre y Apellido del paciente:</label>
+            <input type="text" id="nombreInput" required>
+            <br>
+            <button type="submit">Reservar turno</button>
+        </form>
+    </div>
+    <br>
+    <div id="consulta-turno">
+        <h2>Consultar turno</h2>
+        <input type="text" id="nombreConsulta" placeholder="Nombre y Apellido">
+        <button id="consultarBtn">Consultar</button>
+    </div>
+    <br>
+    <div id="resultado"></div>
     <br>
     <hr>
     <br>
